@@ -87,11 +87,6 @@ import { Button, Card, Modal } from 'my-components-lib';
 </Modal>
 ```
 
-### 🎥 Screen Recording
-A screen recording (`demo.mp4`) is attached showing:
-- App running
-- Button and modal interaction
-
 > ⚠️ Make sure the component library folder (`my-components-lib`) exists next to the demo project.
 
 ---
