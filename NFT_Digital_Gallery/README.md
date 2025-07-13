@@ -82,11 +82,10 @@ git clone https://github.com/your-username/nft-gallery.git
 cd nft-gallery
 npm install
 npm start
+```
+```
 Visit in your browser: [http://localhost:3000](http://localhost:3000)
 ```
-
----
-
 ## 📁 Project Structure
 
 ```text
