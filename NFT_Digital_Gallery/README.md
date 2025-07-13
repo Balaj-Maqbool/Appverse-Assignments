@@ -27,7 +27,7 @@ Modern interface showcasing digital art NFTs.
 
 **NFT Gallery** is a modern, responsive web application built with React that showcases digital art as Non-Fungible Tokens (NFTs). The platform features a clean, minimalist design with comprehensive functionality for browsing, filtering, and exploring NFT collections.
 
-### Core Functionality:
+## Core Functionality:
 
 - Browse NFT collections with rich metadata
 - Advanced filtering and sorting options
@@ -72,7 +72,6 @@ Experience the application live:
 > _(Note: Replace with actual deployment link)_
 
 ---
-
 ## 🛠️ Installation
 
 Follow these steps to run the project locally:
@@ -84,7 +83,7 @@ npm install
 npm start
 ```
 Visit in your browser: [http://localhost:3000](http://localhost:3000)
-
+---
 ## 📁 Project Structure
 
 ```text
@@ -106,6 +105,7 @@ src/
 ├── App.js
 └── index.js
 ```
+---
 ## 🧰 Technologies Used
 
 - **Frontend Framework:** React 18
@@ -215,3 +215,4 @@ See the `LICENSE.md` file for full details.
 
 > Thank you for exploring **NFT Gallery**!  
 > For any questions or feedback, please contact the author.
+---
