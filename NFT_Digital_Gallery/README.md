@@ -216,4 +216,3 @@ See the `LICENSE.md` file for full details.
 
 > Thank you for exploring **NFT Gallery**!  
 > For any questions or feedback, please contact the author.
----
