@@ -83,6 +83,7 @@ npm install
 npm start
 ```
 Visit in your browser: [http://localhost:3000](http://localhost:3000)
+
 ---
 ## 📁 Project Structure
 
@@ -160,8 +161,8 @@ const getNFTs = async () => {
 };
 ````
 
----
 
+---
 ## 📸 Screenshots
 
 ### 📱 Mobile View
