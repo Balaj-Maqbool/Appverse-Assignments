@@ -1,0 +1,123 @@
+.nft-item {
+    display: block;
+    background-color: white;
+    border-radius: 12px;
+    overflow: hidden;
+    text-decoration: none;
+    color: #1e293b;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.nft-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.nft-image-container {
+    position: relative;
+    height: 250px;
+    overflow: hidden;
+}
+
+.nft-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.nft-item:hover .nft-image {
+    transform: scale(1.05);
+}
+
+.nft-category {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background-color: rgba(14, 165, 233, 0.9);
+    color: white;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.nft-info {
+    padding: 20px;
+}
+
+.nft-name {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.nft-artist {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #64748b;
+    font-size: 0.95rem;
+    margin-bottom: 15px;
+}
+
+.nft-price-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+    border-top: 1px solid #e2e8f0;
+}
+
+.price-label {
+    font-size: 0.9rem;
+    color: #64748b;
+}
+
+.nft-price {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #0f172a;
+}
+
+.nft-stats {
+    display: flex;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.stat {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 0.9rem;
+    color: #64748b;
+}
+
+@media (max-width: 768px) {
+    .nft-image-container {
+        height: 200px;
+    }
+
+    .nft-info {
+        padding: 15px;
+    }
+
+    .nft-name {
+        font-size: 1.1rem;
+    }
+
+    .nft-price {
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .nft-image-container {
+        height: 220px;
+    }
+}

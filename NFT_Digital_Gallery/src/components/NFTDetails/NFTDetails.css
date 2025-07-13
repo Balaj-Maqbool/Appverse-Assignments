@@ -1,0 +1,258 @@
+.nft-details-container {
+    padding: 40px 0;
+}
+
+.nft-details {
+    display: flex;
+    gap: 40px;
+    background-color: white;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+}
+
+.nft-image-section {
+    flex: 1;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f8fafc;
+}
+
+.detail-image {
+    max-width: 100%;
+    max-height: 600px;
+    border-radius: 12px;
+    object-fit: contain;
+}
+
+.nft-info-section {
+    flex: 1;
+    padding: 40px;
+}
+
+.nft-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 25px;
+}
+
+.nft-title {
+    font-size: 2rem;
+    font-weight: 800;
+    color: #0f172a;
+    margin: 0;
+}
+
+.nft-category {
+    background-color: #e0f2fe;
+    color: #0369a1;
+    padding: 6px 15px;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.artist-info {
+    margin-bottom: 25px;
+}
+
+.artist-label {
+    font-size: 0.9rem;
+    color: #64748b;
+    margin-bottom: 5px;
+}
+
+.artist-name {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #0f172a;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.nft-description {
+    color: #475569;
+    line-height: 1.7;
+    margin-bottom: 30px;
+    font-size: 1.1rem;
+}
+
+.price-info {
+    background-color: #f1f5f9;
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 30px;
+}
+
+.price-label {
+    font-size: 0.95rem;
+    color: #64748b;
+    margin-bottom: 5px;
+}
+
+.nft-price {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #0f172a;
+}
+
+.stats-container {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.stat-item {
+    flex: 1;
+    background-color: #f8fafc;
+    border-radius: 12px;
+    padding: 15px;
+    text-align: center;
+}
+
+.stat-value {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #0ea5e9;
+}
+
+.stat-label {
+    font-size: 0.9rem;
+    color: #64748b;
+}
+
+.action-buttons {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.buy-button,
+.offer-button,
+.like-button {
+    padding: 15px 25px;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 1rem;
+}
+
+.buy-button {
+    background: linear-gradient(135deg, #0ea5e9 0%, #0d9488 100%);
+    color: white;
+}
+
+.offer-button {
+    background-color: white;
+    border: 2px solid #0ea5e9;
+    color: #0ea5e9;
+}
+
+.like-button {
+    background-color: #f8fafc;
+    color: #64748b;
+    border: 2px solid #e2e8f0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.buy-button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(14, 165, 233, 0.3);
+}
+
+.offer-button:hover {
+    background-color: #f0f9ff;
+}
+
+.like-button:hover {
+    background-color: #fff1f2;
+    border-color: #fecdd3;
+    color: #f43f5e;
+}
+
+.back-link {
+    display: inline-block;
+    margin-top: 30px;
+    color: #0ea5e9;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.1rem;
+    transition: all 0.3s ease;
+}
+
+.back-link:hover {
+    color: #0284c7;
+}
+
+@media (max-width: 1024px) {
+    .nft-details {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .nft-image-section {
+        padding: 20px;
+    }
+
+    .nft-info-section {
+        padding: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .nft-title {
+        font-size: 1.7rem;
+    }
+
+    .nft-description {
+        font-size: 1rem;
+    }
+
+    .action-buttons {
+        flex-direction: column;
+    }
+
+    .buy-button,
+    .offer-button,
+    .like-button {
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .nft-details-container {
+        padding: 20px 0;
+    }
+
+    .nft-image-section {
+        padding: 15px;
+    }
+
+    .nft-info-section {
+        padding: 20px;
+    }
+
+    .nft-header {
+        flex-direction: column;
+        gap: 10px;
+        align-items: flex-start;
+    }
+
+    .stats-container {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .nft-price {
+        font-size: 1.7rem;
+    }
+}
