@@ -77,36 +77,36 @@ Experience the application live:
 
 Follow these steps to run the project locally:
 
-````bash
+```bash
 git clone https://github.com/your-username/nft-gallery.git
 cd nft-gallery
 npm install
 npm start
-
 Visit in your browser: [http://localhost:3000](http://localhost:3000)
+```
 
 ---
 
 ## 📁 Project Structure
 
-```text
 src/
 ├── components/
-│   ├── Header/
-│   ├── Gallery/
-│   ├── NFTItem/
-│   ├── Filters/
-│   ├── NFTDetails/
-│   └── Layout/
+│ ├── Header/
+│ ├── Gallery/
+│ ├── NFTItem/
+│ ├── Filters/
+│ ├── NFTDetails/
+│ └── Layout/
 ├── services/
-│   └── api.js
+│ └── api.js
 ├── context/
-│   └── NFTContext.jsx
+│ └── NFTContext.jsx
 ├── pages/
-│   ├── Home.jsx
-│   └── Details.jsx
+│ ├── Home.jsx
+│ └── Details.jsx
 ├── App.js
 └── index.js
+
 ````
 
 ---
@@ -125,11 +125,11 @@ src/
 
 ## 📱 Responsive Design
 
-| Breakpoint         | Layout Features                                       |
-| ------------------ | ----------------------------------------------------- |
-| Mobile (320–480px) | Single-column layout, stacked filters, simplified nav |
-| Tablet (481–768px) | Two-column NFT grid, compact header                   |
-| Desktop (769px+)   | 3–4 column grid, horizontal filters, full navigation  |
+| Breakpoint        | Layout Features                                         |
+|-------------------|----------------------------------------------------------|
+| Mobile (320–480px) | Single-column layout, stacked filters, simplified nav  |
+| Tablet (481–768px) | Two-column NFT grid, compact header                    |
+| Desktop (769px+)   | 3–4 column grid, horizontal filters, full navigation   |
 
 ---
 
@@ -150,20 +150,20 @@ src/
 
 ```js
 const getNFTs = async () => {
-  const response = await fetch("https://api.opensea.io/api/v1/assets?limit=20");
+  const response = await fetch('https://api.opensea.io/api/v1/assets?limit=20');
   const data = await response.json();
-  return data.assets.map((asset) => ({
+  return data.assets.map(asset => ({
     id: asset.token_id,
     name: asset.name || `#${asset.token_id}`,
-    artist: asset.creator?.user?.username || "Unknown",
+    artist: asset.creator?.user?.username || 'Unknown',
     price: asset.last_sale?.total_price || 0.1,
-    currency: "ETH",
+    currency: 'ETH',
     image: asset.image_url,
-    description: asset.description || "NFT description",
-    category: asset.collection?.name || "Art",
+    description: asset.description || 'NFT description',
+    category: asset.collection?.name || 'Art'
   }));
 };
-```
+````
 
 ---
 
