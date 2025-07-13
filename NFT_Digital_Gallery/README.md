@@ -87,6 +87,7 @@ Visit in your browser: [http://localhost:3000](http://localhost:3000)
 
 ## 📁 Project Structure
 
+```text
 src/
 ├── components/
 │ ├── Header/
@@ -104,7 +105,7 @@ src/
 │ └── Details.jsx
 ├── App.js
 └── index.js
-
+```
 ## 🧰 Technologies Used
 
 - **Frontend Framework:** React 18
