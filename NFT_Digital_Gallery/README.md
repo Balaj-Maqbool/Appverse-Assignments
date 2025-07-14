@@ -186,7 +186,7 @@ See the `LICENSE.md` file for full details.
 **Balaj Maqbool**
 
 - GitHub: [@balajmaqbool](https://github.com/balaj-maqbool)
-- Portfolio: [balajmaqbool.com](https://balajmaqbool.com)
+- Portfolio: [balajmaqbool.com](https://balaj-maqbool-portfolio.vercel.app/)
 - LinkedIn: [in/balajmaqbool](https://www.linkedin.com/in/balaj-maqbool)
 
 ---
