@@ -10,7 +10,7 @@ Modern interface showcasing digital art NFTs.
 
 - [Project Overview](#project-overview)
 - [Key Features](#key-features)
-- [Live Demo](#live-demo)
+- [Live Demo](https://digital-nft-gallery-nu.vercel.app/)
 - [Installation](#installation)
 - [Project Structure](#project-structure)
 - [Technologies Used](#technologies-used)
@@ -67,7 +67,7 @@ Modern interface showcasing digital art NFTs.
 ## 🚀 Live Demo
 
 Experience the application live:  
-**🔗 [NFT Gallery Live Demo](#)**
+**🔗 [NFT Gallery Live Demo](https://digital-nft-gallery-nu.vercel.app/)**
 
 > _(Note: Replace with actual deployment link)_
 
@@ -162,29 +162,6 @@ const getNFTs = async () => {
 ````
 
 
----
-## 📸 Screenshots
-
-### 📱 Mobile View
-
-<img src="screenshots/mobile-gallery.jpg" alt="Mobile Gallery" width="300"/>
-<img src="screenshots/mobile-filters.jpg" alt="Mobile Filters" width="300"/>
-
-### 💻 Tablet View
-
-<img src="screenshots/tablet-gallery.jpg" alt="Tablet Gallery" width="600"/>
-
-### 🖥️ Desktop View
-
-<img src="screenshots/desktop-gallery.jpg" alt="Desktop Gallery" width="800"/>
-<img src="screenshots/nft-details.jpg" alt="NFT Details" width="800"/>
-
-### ✨ Interaction States
-
-<img src="screenshots/hover-effect.jpg" alt="Hover Effects" width="800"/>
-
----
-
 ## 🚧 Future Enhancements
 
 - Real NFT API integrations (OpenSea, Rarible)
@@ -208,9 +185,9 @@ See the `LICENSE.md` file for full details.
 
 **Balaj Maqbool**
 
-- GitHub: [@balajmaqbool](https://github.com/balajmaqbool)
+- GitHub: [@balajmaqbool](https://github.com/balaj-maqbool)
 - Portfolio: [balajmaqbool.com](https://balajmaqbool.com)
-- LinkedIn: [in/balajmaqbool](https://linkedin.com/in/balajmaqbool)
+- LinkedIn: [in/balajmaqbool](https://www.linkedin.com/in/balaj-maqbool)
 
 ---
 
