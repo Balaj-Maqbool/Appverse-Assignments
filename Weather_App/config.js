@@ -1,1 +1,0 @@
-const myApiKey = "84756a978e9ff692d7dc5831c0405e2c"
