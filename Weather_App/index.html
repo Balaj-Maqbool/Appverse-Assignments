@@ -5,34 +5,38 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Weather App</title>
         <link rel="stylesheet" href="style.css"
-    </head>
-    <body>
-        <div class="container">
-            <div class="input_container">
-                <input type="text" placeholder=" Enter City " id="city_input">
-                <div id="search"> <img src="./images/search.png"
-                        alt="search"></div>
-            </div>
+            </head>
+        <body>
+            <div class="container">
+                <div class="input_container">
+                    <input type="text" placeholder=" Enter City "
+                        id="city_input">
+                    <div id="search"> <img src="./images/search.png"
+                            alt="search"></div>
+                </div>
 
-            <h3 id="error_msg"> Error, Wrong City Name </h3>
-            <div class="weather_img_container">
-                <img src="./images/drizzle.png" alt="drizzle" id="weather_icon">
-            </div>
+                <h3 id="error_msg"> Error, Wrong City Name </h3>
+                <div class="weather_img_container">
+                    <img src="./images/drizzle.png" alt="drizzle"
+                        id="weather_icon">
+                </div>
 
-            <div class="show_weather_container">
-                <h2 id="city_name">Sargodha</h2>
-                <h3 id="temp"> 32C</h3>
-                <div class="lower_conatiner">
-                    <div id="humidity">
-                        <img src="./images/humidity.png" alt="Humidity"> <p id="humidity_value">50%</p>
-                    </div>
-                    <div id="wind">
-                        <img src="./images/wind.png" alt="Wind Speed"><p id="wind_speed">6.5 km/h</p>
+                <div class="show_weather_container">
+                    <h2 id="city_name">Sargodha</h2>
+                    <h3 id="temp"> 32C</h3>
+                    <div class="lower_conatiner">
+                        <div id="humidity">
+                            <img src="./images/humidity.png" alt="Humidity"> <p
+                                id="humidity_value">50%</p>
+                        </div>
+                        <div id="wind">
+                            <img src="./images/wind.png" alt="Wind Speed"><p
+                                id="wind_speed">6.5 km/h</p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-
-        <script src="script.js"></script>
-    </body>
-</html>
+            <script src="config.js"></script>
+            <script src="script.js"></script>
+        </body>
+    </html>

@@ -1,4 +1,4 @@
-const myApiKey = "84756a978e9ff692d7dc5831c0405e2c"
+
 const basicUrl = "https://api.openweathermap.org/data/2.5/weather?q="
 const API = `&appid=${myApiKey}`
 
@@ -22,7 +22,7 @@ const getWeather = async (city) => {
         const URL = `${basicUrl}${city}${API}&units=metric`;
         let response = await fetch(URL);
         const data = await response.json();
-        console.log(data);
+        // console.log(data);
 
         if (data.cod === 200) {
             let city_name = document.querySelector("#city_name")
