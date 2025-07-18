@@ -1,3 +1,4 @@
 my-components-lib/
 using-my-component-lib/
 .vscode/
+/weather-app/config.js
