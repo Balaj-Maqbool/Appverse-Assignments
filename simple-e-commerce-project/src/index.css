@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@theme{
+  --color-primary:#0f172a;
+  --color-accent:#7e22ce;
+  --color-card:#1e293b;
+}
+
+body {
+  @apply bg-primary text-gray-200 min-h-screen;
+}
+
+.smooth-transition {
+  @apply transition-all duration-300 ease-in-out;
+}

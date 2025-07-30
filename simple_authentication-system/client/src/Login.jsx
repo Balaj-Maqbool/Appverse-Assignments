@@ -38,7 +38,7 @@ const Login = () => {
 
         } catch (error) {
             console.log("Error during login:", error);
-            setError({ state: true, message: "Something went wrong" });
+            setError({ state: true, message: "500, Something went wrong" });
         }
     };
 
